@@ -1,5 +1,5 @@
 module AntisymmetricMatrices
-
+using AutoHashEquals
 #### More specialized matrix types ####
 
 import Base.LinAlg: char_uplo, checksquare, HessenbergQ, @commutative
